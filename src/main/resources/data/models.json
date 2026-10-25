@@ -1,0 +1,130 @@
+[
+  {"company": "OpenAI",
+"model": "GPT-4o mini",
+"context_window_size": 128000
+},
+{
+"company": "OpenAI",
+"model": "GPT-4.1 mini",
+"context_window_size": 1000000
+},
+{
+"company": "OpenAI",
+"model": "GPT-4.1 nano",
+"context_window_size": 1000000
+},
+{
+"company": "OpenAI",
+"model": "GPT-5",
+"context_window_size": 400000
+},
+{
+"company": "OpenAI",
+"model": "GPT-5 mini",
+"context_window_size": 400000
+},
+{
+"company": "OpenAI",
+"model": "GPT-5 nano",
+"context_window_size": 400000
+},
+{
+"company": "OpenAI",
+"model": "o3",
+"context_window_size": 200000
+},
+{
+"company": "OpenAI",
+"model": "o4-mini",
+"context_window_size": 200000
+},
+{
+"company": "Anthropic",
+"model": "Claude 3.5 Sonnet",
+"context_window_size": 200000
+},
+{
+"company": "Anthropic",
+"model": "Claude 3.5 Haiku",
+"context_window_size": 200000
+},
+{
+"company": "Anthropic",
+"model": "Claude 3.7 Sonnet",
+"context_window_size": 200000
+},
+{
+"company": "Anthropic",
+"model": "Claude Sonnet 4",
+"context_window_size": 200000
+},
+{
+"company": "Anthropic",
+"model": "Claude Opus 4",
+"context_window_size": 200000
+},
+{
+"company": "Anthropic",
+"model": "Claude Haiku 4.5",
+"context_window_size": 200000
+},
+{
+"company": "Google",
+"model": "Gemini 2.0 Flash",
+"context_window_size": 1000000
+},
+{
+"company": "Google",
+"model": "Gemini 2.5 Pro",
+"context_window_size": 1000000
+},
+{
+"company": "Google",
+"model": "Gemini 2.5 Flash",
+"context_window_size": 1000000
+},
+{
+"company": "Google",
+"model": "Gemini 2.5 Flash-Lite",
+"context_window_size": 1000000
+},
+{
+"company": "Meta",
+"model": "Llama 3.3 70B",
+"context_window_size": 128000
+},
+{
+"company": "Meta",
+"model": "Llama 3.1 8B",
+"context_window_size": 128000
+},
+{
+"company": "Meta",
+"model": "Llama 3.1 70B",
+"context_window_size": 128000
+},
+{
+"company": "Mistral AI",
+"model": "Mistral Large 2",
+"context_window_size": 128000
+},
+{
+"company": "Mistral AI",
+"model": "Codestral",
+"context_window_size": 256000
+},
+{
+"company": "DeepSeek",
+"model": "DeepSeek-V3",
+"context_window_size": 64000
+},
+{
+"company": "DeepSeek",
+"model": "DeepSeek-R1",
+"context_window_size": 64000
+},
+{
+"company": "xAI",
+"model": "Grok 3",
+"context_window_size": 131072}
+  ]
