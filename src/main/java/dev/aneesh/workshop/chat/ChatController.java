@@ -13,8 +13,8 @@ import reactor.core.publisher.Flux;
 public class ChatController {
     private final ChatClient chatClient;
 
-    public ChatController(ChatClient.Builder builder) {
-        this.chatClient=builder.build();
+    public ChatController(ChatClient chatClient) {
+        this.chatClient=chatClient;
     }
 
     @GetMapping("/chat")
@@ -23,7 +23,7 @@ public class ChatController {
     }
 
     @GetMapping("/stream")
-    public Flux<String> stream(){
+    public Flux<String> stream(){   //
         return chatClient.prompt().user("I am visiting Bhakra Soon tell me 5 places to visit there and who is DR.HArdyal Singh Chandel there ").stream().content();
     }
     @GetMapping("/fact")
